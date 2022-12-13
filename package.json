@@ -17,8 +17,6 @@
   },
   "devDependencies": {
     "auto": "^10.37.6",
-    "postcss": "^8.4.20",
-    "prefixer": "^0.0.3",
-    "tailwindcss": "^3.2.4"
+    "prefixer": "^0.0.3"
   }
 }
