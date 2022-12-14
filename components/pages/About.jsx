@@ -32,11 +32,14 @@ const About = () => {
         </div>
         <div>
           <Image
-            src='/../public/fractal_plant3.jpg'
+            src='https://c8.alamy.com/comp/BFEJXN/romanesco-broccoli-or-roman-cauliflower-on-a-white-background-BFEJXN.jpg'
             width={300}
             height={300}
             className='mt-20'
             alt='fractal_broccolii'
+            onError={() => {
+              setImgSrc(fallbackSrc);
+            }}
           />
         </div>
       </div>
