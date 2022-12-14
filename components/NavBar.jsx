@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Transition } from '@headlessui/react'; // smooth transition between tabs
 import styles from '../styles/Home.module.css';
@@ -9,21 +9,21 @@ function NavBar() {
   return (
     <div className='shadow-sm w-full z-99  tracking-widest'>
       <nav>
-        <div className='flex h-20 w-full z-999 inset-0'>
+        <div className=' flex h-20 w-full z-999 inset-0 '>
           {/* first block section outer part  */}
-          <div className='flex items mx-10 w-full justify-center'>
+          <div className='fixed flex items mx-10 w-full justify-center'>
             {/* hiding tabs on small screens Y oh medium (md) a block */}
-            <div className='hidden md:block'>
+            <div className=' hidden md:block'>
               <div className='flex space-x-10 mt-5  tracking-widest'>
                 <header
-                  className='m-0 mt-2 leading-5 text-xl text-center font-sans '
+                  className='m-0 mt-2 leading-5 text-xl text-center font-sans'
                   id={styles.color_animation}
                 >
                   <Link href='/'>Sky Leilani</Link>
                 </header>
 
                 <Link
-                  href='/about'
+                  href='#about'
                   activeClass='about'
                   to='/about'
                   className='cursor-pointer font-light px-3 py-2 text-md hover:text-red-400 hover:italic'

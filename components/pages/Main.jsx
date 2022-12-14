@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styles from '../../styles/Home.module.css';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -27,16 +28,19 @@ const Main = () => {
             solutions.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-printer hover:scale-110 ease-in duration-300'>
+            <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <FaLinkedinIn />
             </div>
-            <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-printer hover:scale-110 ease-in duration-300'>
+            <Link
+              href='https://github.com/skyleilani'
+              className='rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
+            >
               <FaGithub />
-            </div>
-            <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-printer hover:scale-110 ease-in duration-300'>
+            </Link>
+            <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <AiOutlineMail />
             </div>
-            <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-printer hover:scale-110 ease-in duration-300'>
+            <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <BsFillPersonLinesFill />
             </div>
           </div>
