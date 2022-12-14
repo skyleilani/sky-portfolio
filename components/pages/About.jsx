@@ -11,15 +11,19 @@ const About = () => {
           <p>
             {' '}
             {`Hey, I'm Sky,`}
-            <br />{` a developer fascinated by languages and the awe-inspiring
-            patterns they possess.`} <br />
-            <br /> {`I'm quite passionate about exploring the connection between
+            <br />
+            {` a developer fascinated by languages and the awe-inspiring
+            patterns they possess.`}{' '}
+            <br />
+            <br />{' '}
+            {`I'm quite passionate about exploring the connection between
             human languages, and their programmatic counterparts. I've always
             been intrigued by the influence human emotion and thought patterns
             have on natural design. I love that code offers a way to explore the
             integration of natural and technological design.`}
             <br />
-            <br />{`I studied Japanese Language and Robotics Technology at
+            <br />
+            {`I studied Japanese Language and Robotics Technology at
             Bennington college from 2018-2022. Since my graduation I have been
             working jobs in customer service & education while I pursue the Comptia
             Security+ certificate and build my web development experience.`}
@@ -32,6 +36,7 @@ const About = () => {
             width={300}
             height={300}
             className='mt-20'
+            alt='fractal_broccolii'
           />
         </div>
       </div>
