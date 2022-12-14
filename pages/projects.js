@@ -11,7 +11,7 @@ const projects = () => {
         <p className='text-md tracking-widest uppercase text-red-400'>
           Projects
         </p>
-        <h2 className='py-4 italic mb-2'> What I've Built </h2>
+        <h2 className='py-4 italic mb-2'> {`What I've Built`} </h2>
         <div className='grid sm:grid-cols-3 gap-10'>
           <ProjectCard
             title='Portfolio'

@@ -10,21 +10,21 @@ const About = () => {
           <h3 className='text-xl italic py-7 '>Background </h3>
           <p>
             {' '}
-            Hey, I'm Sky,
-            <br /> a developer fascinated by languages and the awe-inspiring
-            patterns they possess. <br />
-            <br /> I'm quite passionate about exploring the connection between
+            {`Hey, I'm Sky,`}
+            <br />{` a developer fascinated by languages and the awe-inspiring
+            patterns they possess.`} <br />
+            <br /> {`I'm quite passionate about exploring the connection between
             human languages, and their programmatic counterparts. I've always
             been intrigued by the influence human emotion and thought patterns
             have on natural design. I love that code offers a way to explore the
-            integration of natural and technological design.
+            integration of natural and technological design.`}
             <br />
-            <br />I studied Japanese Language and Robotics Technology at
+            <br />{`I studied Japanese Language and Robotics Technology at
             Bennington college from 2018-2022. Since my graduation I have been
             working jobs in customer service & education while I pursue the Comptia
-            Security+ certificate and build my web development experience.
+            Security+ certificate and build my web development experience.`}
           </p>
-          <h2 className='hidden text-xl italic py-7'>What I'm Up To</h2>
+          <h2 className='hidden text-xl italic py-7'>{`What I'm Up To`}</h2>
         </div>
         <div>
           <Image
