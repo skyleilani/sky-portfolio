@@ -7,19 +7,21 @@ function NavBar() {
   const [isActive, setActive] = useState(false);
 
   return (
-    <div className='shadow-sm w-full z-99'>
-      <header className={styles.title}>
-        <Link href='/' className={styles.title}>
-          Sky Leilani
-        </Link>
-      </header>
+    <div className='shadow-sm w-full z-99  tracking-widest'>
       <nav>
         <div className='flex h-20 w-full z-999 inset-0'>
           {/* first block section outer part  */}
-          <div className={'flex items mx-10 w-full justify-center'}>
+          <div className='flex items mx-10 w-full justify-center'>
             {/* hiding tabs on small screens Y oh medium (md) a block */}
             <div className='hidden md:block'>
-              <div className='flex space-x-10 mt-5'>
+              <div className='flex space-x-10 mt-5  tracking-widest'>
+                <header
+                  className='m-0 mt-2 leading-5 text-xl text-center font-sans '
+                  id={styles.color_animation}
+                >
+                  <Link href='/'>Sky Leilani</Link>
+                </header>
+
                 <Link
                   href='/about'
                   activeClass='about'
