@@ -8,13 +8,13 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 const Main = () => {
   return (
     <main className='w-full h-screen text-center'>
-      <div className='max-w[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div>
+      <div className='max-w[1240px] w-full h-full flex justify-center items-center'>
+        <div className='mb-20'>
           <p className='uppercase text-md tracking-widest text-gray-600'>
-            Let's Grow Together
+            Let's <span className='text-green-500'>Grow</span> Together
           </p>
           <h1 className='py-4 text-gray-700 '> Hi, I'm </h1>
-          <span id={styles.color_animation} className='text-4xl tracking-wide'>
+          <span id={styles.color_animation} className='text-4xl tracking-wide '>
             {' '}
             Sky Leilani
           </span>

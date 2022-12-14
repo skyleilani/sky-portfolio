@@ -6,20 +6,38 @@ import styles from '../styles/Home.module.css';
 function NavBar() {
   const [isActive, setActive] = useState(false);
 
+  // scroll-responsive Navbar
+  const [sticky, setSticky] = useState('relative');
+
+  const stickyNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 500 ? setSticky('fixed') : setSticky('relative');
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', stickyNavbar);
+
+    return () => {
+      window.removeEventListener('scroll', stickyNavbar);
+    };
+  }, []);
+
   return (
     <div className='shadow-sm w-full z-99  tracking-widest'>
       <nav>
         <div className=' flex h-20 w-full z-999 inset-0 '>
-          {/* first block section outer part  */}
-          <div className='fixed flex items mx-10 w-full justify-center'>
-            {/* hiding tabs on small screens Y oh medium (md) a block */}
+          {/* outer block   */}
+          <div className={`${sticky} flex items mx-10 w-full justify-center`}>
+            {/* hiding navbar on small screens or a block on medium screens*/}
             <div className=' hidden md:block'>
               <div className='flex space-x-10 mt-5  tracking-widest'>
                 <header
                   className='m-0 mt-2 leading-5 text-xl text-center font-sans'
                   id={styles.color_animation}
                 >
-                  <Link href='/'>Sky Leilani</Link>
+                  <Link href='/' className='mr-20'>Sky Leilani</Link>
                 </header>
 
                 <Link
