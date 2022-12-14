@@ -37,7 +37,9 @@ function NavBar() {
                   className='m-0 mt-2 leading-5 text-xl text-center font-sans'
                   id={styles.color_animation}
                 >
-                  <Link href='/' className='mr-20'>Sky Leilani</Link>
+                  <Link href='/' className='mr-20'>
+                    Sky Leilani
+                  </Link>
                 </header>
 
                 <Link
@@ -49,7 +51,7 @@ function NavBar() {
                   About
                 </Link>
                 <Link
-                  href='/certificates'
+                  href='#certificates'
                   activeClass='Certificates'
                   to='certificates'
                   className='cursor-pointer font-light px-3 py-2 text-md hover:text-red-400 hover:italic'
