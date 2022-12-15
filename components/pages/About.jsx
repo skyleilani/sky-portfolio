@@ -32,7 +32,8 @@ const About = () => {
         </div>
         <div>
           <Image
-            src='/../public/fractal_plant3.png'
+            src='
+            https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Romanesco_--_2021_--_5784.jpg/800px-Romanesco_--_2021_--_5784.jpg?20210320092857'
             width={300}
             height={300}
             className='mt-20'
