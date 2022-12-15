@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/Home.module.css';
 import Image from 'next/image';
+import plant_img from '../../public/fractal_plant3.png';
 
 const About = () => {
   return (
@@ -32,7 +33,7 @@ const About = () => {
         </div>
         <div>
           <Image
-            src='/../public/fractal_plant3.png'
+            src={plant_img}
             width={300}
             height={300}
             className='mt-20'

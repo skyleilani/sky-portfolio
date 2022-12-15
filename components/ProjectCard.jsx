@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+
 const ProjectCard = ({ title, img, src, tech, preview }) => {
   var formattedTech = tech.split(',').join('\n');
   return (

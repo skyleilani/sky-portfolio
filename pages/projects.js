@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { tf } from '../public/tf.png';
+import tf from '../public/tf.png';
 import Link from 'next/link';
 import ProjectCard from '../components/ProjectCard';
 
@@ -25,7 +25,7 @@ const projects = () => {
             tech='React, CSS'
             src='https://github.com/skyleilani/equation-game-and-main-page-'
             preview='https://o41qk.csb.app/'
-            img='/../public/tf.png'
+            img={tf}
           />
         </div>
       </div>

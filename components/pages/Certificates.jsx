@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import cert from '../../public/certificate.png';
 
 const Certificates = () => {
   return (
@@ -9,7 +10,7 @@ const Certificates = () => {
         <div className='cursor-pointer shadow-lg rounded-xl'>
           <Link href='https://www.credential.net/e5510156-6717-4372-abf3-0640bfceae8d#gs.kmcob6'>
             <Image
-              src='/../public/certificate.png'
+              src={cert}
               width={500}
               height={500}
               className='rounded-xl hover:shadow-xl'
