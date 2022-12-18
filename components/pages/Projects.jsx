@@ -1,13 +1,20 @@
 import React from 'react';
-import Image from 'next/image';
-import tf from '../public/tf.png';
-import Link from 'next/link';
-import ProjectCard from '../components/ProjectCard';
+import tf from '../../public/tf.png';
+import ProjectCard from '../ProjectCard';
 
 const projects = () => {
   return (
-    <div className='w-full'>
-      <div className='max-w-[11240px] mx-autho px-2 py-16'>
+      <div className='w-full'>
+          <div className='items-center'>
+          <h1 className='uppercase text-md tracking-widest text-green-500'> Projects </h1>
+              <span className='mb-4'> Updated as I learn  </span>
+              </div>
+    </div>
+  );
+};
+export default projects;
+
+{/*  <div className='max-w-[11240px] mx-auto px-2 py-16'>
         <p className='text-md tracking-widest uppercase text-red-400'>
           Projects
         </p>
@@ -28,8 +35,4 @@ const projects = () => {
             img={tf}
           />
         </div>
-      </div>
-    </div>
-  );
-};
-export default projects;
+      </div> */ }
