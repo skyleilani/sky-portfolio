@@ -51,20 +51,20 @@ function NavBar() {
                   About
                 </Link>
                 <Link
-                  href='/projects'
-                  activeClass='Projects'
-                  to='projects'
-                  className='cursor-pointer font-light px-3 py-2 text-md hover:text-red-400 hover:italic'
-                >
-                  Projects
-                </Link>
-                <Link
                   href='#certificates'
                   activeClass='Certificates'
                   to='certificates'
                   className='cursor-pointer font-light px-3 py-2 text-md hover:text-red-400 hover:italic'
                 >
                   Certificates
+                </Link>
+                <Link
+                  href='/projects'
+                  activeClass='Projects'
+                  to='projects'
+                  className='cursor-pointer font-light px-3 py-2 text-md hover:text-red-400 hover:italic'
+                >
+                  Projects
                 </Link>
               </div>
             </div>
