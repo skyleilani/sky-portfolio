@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import cert from '../../public/certificate.png';
+import cert from '../../public/cert.png';
+import thm_cert from '../../public/thm_cert.png'
 
 const Certificates = () => {
   return (
@@ -11,6 +12,16 @@ const Certificates = () => {
           <Link href='https://www.credential.net/e5510156-6717-4372-abf3-0640bfceae8d#gs.kmcob6'>
             <Image
               src={cert}
+              width={500}
+              height={500}
+              className='rounded-xl hover:shadow-xl'
+            />
+          </Link>
+        </div>
+        <div className='cursor-pointer shadow-lg rounded-xl'>
+          <Link href='https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-OM30QFAVUT.png'>
+            <Image
+              src={thm_cert}
               width={500}
               height={500}
               className='rounded-xl hover:shadow-xl'
