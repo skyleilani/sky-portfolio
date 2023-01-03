@@ -3,12 +3,16 @@ import Link from 'next/link';
 import { Transition } from '@headlessui/react'; // smooth transition between tabs
 import styles from '../styles/Home.module.css';
 
+// A Navbar that changes color on scroll
+// responsive to small vs medium screens
 function NavBar() {
+  // dictates if responsive navbar should be displayed
   const [isActive, setActive] = useState(false);
 
-  // scroll-responsive Navbar
+  // dictates if navbar should be fixed or relative (fixed on user scroll down)
   const [sticky, setSticky] = useState('relative');
 
+  // sets sticky state to fixed when user scrolls down enough
   const stickyNavbar = () => {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
@@ -28,9 +32,9 @@ function NavBar() {
     <div className='shadow-sm w-full z-99  tracking-widest'>
       <nav>
         <div className=' flex h-20 w-full z-999 inset-0 '>
-          {/* outer block   */}
+          {/* block on medium screens and hidden on small screens */}
           <div className={`${sticky} flex items mx-10 w-full justify-center`}>
-            {/* hiding navbar on small screens or a block on medium screens*/}
+            {/* This div element contains the navbar options for medium screens */}
             <div className=' hidden md:block'>
               <div className='flex space-x-10 mt-5  tracking-widest'>
                 <header
@@ -45,7 +49,7 @@ function NavBar() {
                 <Link
                   href='#about'
                   activeClass='about'
-                  to='/about'
+                  to='about'
                   className='cursor-pointer font-light px-3 py-2 text-md hover:text-red-400 hover:italic'
                 >
                   About
@@ -59,7 +63,7 @@ function NavBar() {
                   Certificates
                 </Link>
                 <Link
-                  href='/projects'
+                  href='#projects'
                   activeClass='Projects'
                   to='projects'
                   className='cursor-pointer font-light px-3 py-2 text-md hover:text-red-400 hover:italic'
