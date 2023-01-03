@@ -27,7 +27,7 @@ const ProjectCard = ({
         <motion.div
           whileTap={{ y: 15 }}
           onClick={toggleTabs}
-          className='border cursor-pointer rounded-xl shadow-lg px-10 pt-10 pb-20 m-5 w-8/12 bg-stone-100 hover:bg-stone-200 hover:shadow-2xl'
+          className='border cursor-pointer rounded-xl shadow-lg px-10 pt-10 pb-20 m-5 w-9/12 bg-stone-100 hover:bg-stone-200 hover:shadow-2xl'
         >
           <div className='flex'>
             <div className='w-full tracking-wide'>

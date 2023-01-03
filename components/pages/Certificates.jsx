@@ -10,7 +10,11 @@ const Certificates = () => {
 
   const gymnasium_descrip = 'description';
   return (
-    <div className='w-full h-screen flex items-center' id='certificates'>
+    <div className='w-full h-screen' id='certificates'>
+      <p className='text-md tracking-widest uppercase text-red-400 mx-7 mb-56 pt-6'>
+          Projects
+        </p>
+      <div className='flex items-center'>
       <div className='ml-10 max-w-[1240px] m-auto md:grid grid-cols-2 gap-8 justify-center'>
         <CertCard
           title='Advent of Cyber'
@@ -31,6 +35,7 @@ const Certificates = () => {
           alt='gynmasium_cert'
         />
       </div>
+    </div>
     </div>
   );
 };

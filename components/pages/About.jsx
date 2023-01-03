@@ -5,13 +5,14 @@ import plant_img from '../../public/fractal_plant3.png';
 
 const About = () => {
   return (
+    <div className='h-screen'>
     <div className='w-full' id='about'>
       <h3 className='text-md tracking-widest uppercase text-red-400 mx-10 mb-20 py-7'>
         Background{' '}
       </h3>
-      <div className='w-full h-full p-2 flex pb-10 justify-center'>
+      <div className='w-full p-2 flex pb-10 justify-center'>
         <div className='max-w-[1240px] md:grid grid-cols-3 gap-8'>
-          <div className='col-span-2 shadow-lg rounded-md p-10 ml-10 mb-32'>
+          <div className='col-span-2 shadow-xl rounded-md p-10 ml-10 mb-32 bg-stone-100'>
             <p>
               {' '}
               {`Hey, I'm Sky,`}
@@ -34,18 +35,19 @@ const About = () => {
             </p>
             <h2 className='hidden text-xl italic py-7'>{`What I'm Up To`}</h2>
           </div>
-          <div>
+          <div className='mb-20'>
             <Image
               src={plant_img}
               width={300}
               height={300}
               className='mt-20'
-              alt='fractal_broccolii'
+              alt='fractal_broc'
             />
           </div>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
   );
 };
 

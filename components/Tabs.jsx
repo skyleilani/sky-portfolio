@@ -42,14 +42,14 @@ const Tabs = ({
     else if (currentPageYOffset > stop) {
       closeButton.current.style.setProperty('position', 'absolute');
       closeButton.current.style.setProperty('top', 'auto');
-      closeButton.current.style.setProperty('bottom', '20px');
+      closeButton.current.style.setProperty('bottom', '35px');
     }
 
     // if current scroll position is before start point,
     // set close button to be absolute & positioned at top of container
     else {
       closeButton.current.style.setProperty('position', 'absolute');
-      closeButton.current.style.setProperty('top', '20px');
+      closeButton.current.style.setProperty('top', '35px');
       closeButton.current.style.setProperty('bottom', 'auto');
     }
   };
@@ -72,21 +72,21 @@ const Tabs = ({
   return (
     <div className='py-5 ml-40 z-0'>
       <div
-        className='flex border rounded-xl shadow-lg p-5 mx-5 w-8/12 h-3/6 bg-stone-100'
+        className='flex border rounded-xl shadow-lg p-5 mx-5 w-9/12 h-3/6 bg-stone-100'
         ref={container}
       >
-        <div className='text-left w-11/12  '>
-                  <p>{tabDescription}</p>
+        <div className='text-left w-11/12 pl-5 '>
+                  <p className='my-5'>{tabDescription}</p>
                   
           <Image src={imgSrc} alt={imgAlt} width={500} height={300} />
-          <p>{moreTabDescription}</p>
+          <p className='my-5'>{moreTabDescription}</p>
         </div>
         <div>
           <button
             type='button'
             onClick={onClose}
             ref={closeButton}
-            className=' text-xl font-bold ml-8 '
+            className=' text-xl font-bold ml-8 hover:text-lime-700'
           >
             x
           </button>

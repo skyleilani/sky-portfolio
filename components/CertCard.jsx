@@ -24,13 +24,13 @@ const CertCard = ({
 
   return (
     <MotionConfig transition={{ duration: 1 }}>
-      <div className='mx-auto  w-full max-w-sm border border-zinc-500 pt-8 rounded-xl shadow-lg hover:shadow-xl'>
-        <h1 className='mb-8 text-center text-3xl font-thin'>{title}</h1>
+      <div className='mx-auto w-full max-w-sm border border pt-8 rounded-xl shadow-lg hover:shadow-xl bg-stone-100'>
+        <h1 className='mb-8 px-5 text-center text-3xl font-thin' >{title}</h1>
 
         {/* open content button container */}
         <div
           className='mb-8 flex justify-center px-8'
-          style={{ fontSize: 'calc(1rem + 0.2 * (100vw - 20rem) / 20)' }}
+          
         >
           {/* change text depending on state of open */}
           {open ? (
