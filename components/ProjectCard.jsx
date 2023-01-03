@@ -11,7 +11,7 @@ const ProjectCard = ({
   imgSrc,
   imgAlt,
   tabDescription,
-  moreTabDescription
+  moreTabDescription,
 }) => {
   const [isTabsOpen, setIsTabsOpen] = useState(false);
 

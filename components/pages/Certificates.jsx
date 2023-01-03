@@ -10,7 +10,7 @@ const Certificates = () => {
 
   const gymnasium_descrip = 'description';
   return (
-    <div className='w-full h-screen' id='certificates'>
+    <div className='w-full min-h-screen h-max' id='certificates'>
       <p className='text-md tracking-widest uppercase text-red-400 mx-7 mb-56 pt-6'>
           Projects
         </p>

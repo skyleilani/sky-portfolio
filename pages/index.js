@@ -8,8 +8,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Main />
-      <About/>
+      <About />
       <Projects />
+
       <Certificates />
     </div>
   );

@@ -70,14 +70,14 @@ const Tabs = ({
   }, [currentPageYOffset, moveCloseButton]);
 
   return (
-    <div className='py-5 ml-40 z-0'>
+    <div className=' py-5 ml-40 z-0 '>
       <div
         className='flex border rounded-xl shadow-lg p-5 mx-5 w-9/12 h-3/6 bg-stone-100'
         ref={container}
       >
         <div className='text-left w-11/12 pl-5 '>
-                  <p className='my-5'>{tabDescription}</p>
-                  
+          <p className='my-5'>{tabDescription}</p>
+
           <Image src={imgSrc} alt={imgAlt} width={500} height={300} />
           <p className='my-5'>{moreTabDescription}</p>
         </div>
