@@ -28,10 +28,11 @@ const About = () => {
             integration of natural and technological design.`}
               <br />
               <br />
-              {`I studied Japanese Language and Robotics Technology at
-            Bennington college from 2018-2022. Since my graduation I have been
+              {`I studied Robotics Technology and Japanese Language at
+            Bennington college from 2017-2022. Since my graduation I have been
             working jobs in customer service & education while I pursue the Comptia
             Security+ certificate and build my web development experience.`}
+               
             </p>
             <h2 className='hidden text-xl italic py-7'>{`What I'm Up To`}</h2>
           </div>
