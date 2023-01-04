@@ -57,9 +57,8 @@ const ProjectCard = ({
         <motion.div
           initial={{ y: '-100%', opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1.25 }}
-          style={{ zIndex: -1 }}
-          className='justify-center items-center center-0 float-center text-center'
+          transition={{ ease:'linear',duration:1}}
+         
         >
           <Tabs
             onClose={toggleTabs}
@@ -69,7 +68,6 @@ const ProjectCard = ({
             setExpand={setIsTabsOpen}
             tabDescription={tabDescription}
             moreTabDescription={moreTabDescription}
-            className='justify-center items-center center-0 float-center text-center'
           />
         </motion.div>
       )}

@@ -8,7 +8,7 @@ const Certificates = () => {
   const thm_descrip =
     'OSINT investigations, cyber defense, red teaming, secure coding, and IoT defense';
 
-  const gymnasium_descrip = 'description';
+  const gymnasium_descrip = 'used basic HTML, CSS, and JavaScript to build a wiki site on Yagi Uda antennas ';
   return (
     <div className='w-full min-h-screen h-max' id='certificates'>
       <p className='text-md tracking-widest uppercase text-red-400 mx-7 mb-56 pt-6'>
@@ -18,7 +18,7 @@ const Certificates = () => {
           <CertCard
             title='Advent of Cyber'
             company='Try Hack Me'
-            subtitle='basic cybersecurity'
+            subtitle='Introduction to Cybersecurity'
             src={thm_cert}
             description={thm_descrip}
             preview='https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-OM30QFAVUT.png'
