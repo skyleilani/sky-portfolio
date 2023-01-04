@@ -17,7 +17,7 @@ const projects = () => {
           title='Equation Game'
           description='a true or false based equation game built with React'
           sourceCodeLink='https://github.com/skyleilani/equation-game-and-main-page-'
-          liveLink='https://o41qk.csb.app/'
+          liveLink='https://true-or-false.vercel.app/'
           imgSrc={tf}
           imgAlt='equation_game_img'
           tabDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Pretium fusce id velit ut tortor. Proin nibh nisl condimentum id. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Gravida neque convallis a cras semper auctor neque vitae. Neque convallis a cras semper auctor. Pellentesque nec nam aliquam sem et tortor consequat id. Libero nunc consequat interdum varius sit. Ultricies lacus sed turpis tincidunt id aliquet risus. Feugiat in fermentum posuere urna. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Fermentum posuere urna nec tincidunt praesent semper. Suspendisse faucibus interdum posuere lorem.'
