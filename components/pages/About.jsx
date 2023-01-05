@@ -15,23 +15,15 @@ const About = () => {
             <div className='col-span-2 shadow-xl rounded-md p-10 ml-10 mb-32 bg-stone-100'>
               <p>
                 {' '}
-                {`Hey, I'm Sky,`}
+                {`Hey, I'm Sky!`}
                 <br />
-                {` a developer fascinated by languages and the awe-inspiring
-            patterns they possess.`}{' '}
+                {` I'm a developer with a passion for languages and the patterns they exhibit.`}{' '}
                 <br />
                 <br />{' '}
-                {`I'm quite passionate about exploring the connection between
-            human languages, and their programmatic counterparts. I've always
-            been intrigued by the influence human emotion and thought patterns
-            have on natural design. I love that code offers a way to explore the
-            integration of natural and technological design.`}
+                {`I'm particularly interested in the connection between human languages and their programmatic counterparts, and the influence that human emotion and thought patterns have on natural design. I find it fascinating that code allows us to explore the intersection of natural and technological design.`}
                 <br />
                 <br />
-                {`I studied Robotics Technology and Japanese Language at
-            Bennington college from 2017-2022. Since my graduation I have been
-            working jobs in customer service & education while I pursue the Comptia
-            Security+ certificate and build my web development experience.`}
+                {`I received my degree in Robotics Technology and Japanese Language from Bennington College in 2022. Since then, I have been working in customer service and education while also working towards my Comptia Security+ certificate and building my web development skills.`}
               </p>
               <h2 className='hidden text-xl italic py-7'>{`What I'm Up To`}</h2>
             </div>
