@@ -29,7 +29,7 @@ const ProjectCard = ({
         <motion.div
           whileTap={{ y: 15 }}
           onClick={toggleTabs}
-          className='border w-full  sm:w-4/6 cursor-pointer rounded-xl shadow-lg p-10 pb-20 m-5 w-full sm:w-9/12 bg-stone-100 hover:bg-stone-200 hover:shadow-2xl mx-auto'
+          className='border w-full sm:w-4/6 cursor-pointer rounded-xl shadow-lg p-10 pb-20 m-5 w-full sm:w-9/12 bg-stone-100 hover:bg-stone-200 hover:shadow-2xl mx-auto'
         >
           
             <div className='w-full tracking-wide'>
@@ -39,12 +39,14 @@ const ProjectCard = ({
 
               {/* show the mobile description on small screens and hide on large screens */}
               <p className='block sm:hidden text-sm italic'>{mobileDescription}</p>
+            
             </div>
          
         </motion.div>
         
       </div>
-      <div className='flex flex-col items-center '>
+        <div className='flex flex-col border'>
+          
           <a
             className='border my-1 mb-10 p-2 shadow-md rounded-lg cursor-pointer bg-stone-100 hover:bg-stone-300 hover:translate-x-0.5'
             href={sourceCodeLink}
