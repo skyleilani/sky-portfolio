@@ -20,11 +20,11 @@ const Main = () => {
           </span>
           <br />
           <h1 className='mt-5 pt-2  text-gray-700'>
-            A curious, passion-driven developer,
+            A self-motivated and passionate developer,
           </h1>
           <p className='text-gray-600 max-w-[70%] m-auto'>
             <br />
-            focused on creating human-centered designs, and thoughtful
+            dedicated to learning and  creating human-centered designs, and thoughtful
             solutions.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-5 my-5'>
