@@ -69,6 +69,9 @@ const Tabs = ({
     };
   }, [currentPageYOffset, moveCloseButton]);
 
+  // Split moreTabDescription text into an array of sentences
+  const moreTabDescriptionList = moreTabDescription.split('.');
+
   return (
     <div className='py-5 ml-40 '>
       <div
@@ -79,7 +82,16 @@ const Tabs = ({
           <p className='my-5'>{tabDescription}</p>
 
           <Image src={imgSrc} alt={imgAlt} width={500} height={300} />
-          <p className='my-5'>{moreTabDescription}</p>
+          <div className='text-center'>
+            <h1 className='italic mt-5'> skills strengthened: </h1>
+          </div>
+          <ul className='my-5'>
+            {moreTabDescriptionList.map((sentence, index) => (
+              <li key={index} className='mb-2'>
+                - {sentence}.
+              </li>
+            ))}
+          </ul>
         </div>
         <div>
           <button
