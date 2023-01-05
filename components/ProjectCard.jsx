@@ -23,10 +23,10 @@ const ProjectCard = ({
 
   return (
     <div className='items-center'>
-      <div className='flex justify-center border z-10'>
+      <div className='flex justify-center z-10'>
         {/* shift element down by 15px when element is tapped */}
         <div className=' w-full '>
-          <div className='border flex items-center justify-center'>
+          <div className='flex items-center justify-center'>
             <motion.div
               whileTap={{ y: 15 }}
               onClick={toggleTabs}
