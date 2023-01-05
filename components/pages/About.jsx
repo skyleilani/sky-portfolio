@@ -5,7 +5,7 @@ import plant_img from '../../public/fractal_plant3.png';
 
 const About = () => {
   return (
-    <div className='h-screen min-h-max'>
+    <div className='h-max min-h-screen'>
       <div className='w-full' id='about'>
         <h3 className='text-md tracking-widest uppercase text-red-400 mx-10 mb-20 py-7'>
           Background{' '}
