@@ -119,7 +119,7 @@ function NavBar() {
             </div>
           </div>
         </div>
-        {/* headless ui for smoothness in mobile experience */}
+        {/* headless ui for smooth mobile experience */}
         <Transition
           show={isActive}
           enter='transition ease-out duration-100 transform'
@@ -136,7 +136,7 @@ function NavBar() {
                 className='bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 ml-4'
               >
                 <Link
-                  href='../pages/about'
+                  href='#about'
                   activeClass='about'
                   to='about'
                   className='cursor-pointer text-black hover:italic hover:text-red-400 block px-3 py-2 rounded-md text-base font-light ml-5'
@@ -144,7 +144,7 @@ function NavBar() {
                   About
                 </Link>
                 <Link
-                  href='/projects'
+                  href='#projects'
                   activeClass='projects'
                   to='projects'
                   className='cursor-pointer text-black  hover:text-red-400 hover:italic block px-3 py-2 rounded-md text-base font-light ml-5'
@@ -152,7 +152,7 @@ function NavBar() {
                   Projects
                 </Link>
                 <Link
-                  href='/certificates'
+                  href='#certificates'
                   activeClass='certificates'
                   to='certificates'
                   className='cursor-pointer text-black hover:italic hover:text-red-400 block px-3 py-2 rounded-md text-base font-light ml-5'

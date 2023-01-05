@@ -75,15 +75,15 @@ const Tabs = ({
   return (
     <div className='py-5 items-center z-10 mr-5 '>
       <div
-        className='flex w-4/5 sm:w-6/12 h-3/6 border rounded-xl shadow-lg p-5 mx-auto  h-3/6 bg-stone-100'
+        className='flex w-4/5 sm:w-6/12 text-sm sm:text-base h-3/6 border rounded-xl shadow-lg p-5 mx-auto  h-3/6 bg-stone-100'
         ref={container}
       >
-        <div className='text-left w-11/12 pl-5  '>
+        <div className='text-left w-11/12 pl-5   '>
           <p className='my-5'>{tabDescription}</p>
 
           <Image src={imgSrc} alt={imgAlt} width={500} height={500} />
           <div className='text-center'>
-            <h1 className='italic mt-5'> skills strengthened: </h1>
+            <h1 className='italic mt-5 text-sm sm:text-base'> skills strengthened: </h1>
           </div>
           <ul className='my-5'>
             {moreTabDescriptionList.map((sentence, index) => (

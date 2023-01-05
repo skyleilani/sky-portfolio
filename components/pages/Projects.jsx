@@ -36,6 +36,7 @@ const projects = () => {
         <ProjectCard
           title='Portfolio (this site)'
           description='A web portfolio hosted on Vercel using Next JS, Tailwind CSS, with help from the Headless UI and Framer Motion libraries'
+          mobileDescription='Next.js, React, Tailwind CSS, Headless UI, Framer Motion'
           sourceCodeLink='https://github.com/skyleilani/sky-portfolio'
           liveLink='https://sky-portfolio.vercel.app/'
           imgSrc={this_site}
