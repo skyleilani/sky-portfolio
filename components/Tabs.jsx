@@ -73,9 +73,9 @@ const Tabs = ({
   const moreTabDescriptionList = moreTabDescription.split('.');
 
   return (
-    <div className='py-5 items-center z-10 '>
+    <div className='py-5 items-center z-10 mr-5 '>
       <div
-        className='flex w-full sm:w-3/5 h-3/6 border rounded-xl shadow-lg p-5 mx-auto  h-3/6 bg-stone-100'
+        className='flex w-4/5 sm:w-6/12 h-3/6 border rounded-xl shadow-lg p-5 mx-auto  h-3/6 bg-stone-100'
         ref={container}
       >
         <div className='text-left w-11/12 pl-5  '>
