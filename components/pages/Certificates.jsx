@@ -12,7 +12,7 @@ const Certificates = () => {
   return (
     <div className='w-full min-h-screen h-max' id='certificates'>
       <p className='text-md tracking-widest uppercase text-red-400 mx-7 mb-56 pt-6'>
-        Projects
+        Certificates
       </p>
         <div className='ml-5 m-auto flex flex-row items-center'>
           <CertCard

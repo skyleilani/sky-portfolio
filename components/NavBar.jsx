@@ -31,7 +31,7 @@ function NavBar() {
   return (
     <div className='shadow-sm w-full z-99  tracking-widest'>
       <nav>
-        <div className=' flex h-20 w-full z-999 inset-0 '>
+        <div className=' flex h-20 w-full z-99 inset-0 '>
           {/* block on medium screens and hidden on small screens */}
           <div className={`${sticky} flex items mx-10 w-full justify-center`}>
             {/* This div element contains the navbar options for medium screens */}
@@ -73,7 +73,7 @@ function NavBar() {
               </div>
             </div>
             {/* responsive navbar for smaller screens */}
-            <div className='mr-10 flex md:hidden'>
+            <div className='mr-10 flex  md:hidden'>
               <button
                 onClick={() => setActive(!isActive)}
                 type='button'
@@ -130,7 +130,7 @@ function NavBar() {
         >
           {ref => (
             //handle mobile menu tabs
-            <div className='md:hidden id=mobile-menu'>
+            <div className=' md:hidden id=mobile-menu'>
               <div
                 ref={ref}
                 className='bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 ml-4'

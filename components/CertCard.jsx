@@ -25,13 +25,10 @@ const CertCard = ({
   return (
     <MotionConfig transition={{ duration: 1 }}>
       <div className='mx-auto w-full max-w-sm border border pt-8 rounded-xl shadow-lg hover:shadow-xl bg-stone-100'>
-        <h1 className='mb-8 px-5 text-center text-3xl font-thin' >{title}</h1>
+        <h1 className='mb-8 px-5 text-center text-lg sm:text-3xl'>{title}</h1>
 
         {/* open content button container */}
-        <div
-          className='mb-8 flex justify-center px-8'
-          
-        >
+        <div className='mb-8 flex justify-center text-sm sm:text-md'>
           {/* change text depending on state of open */}
           {open ? (
             <button className='border px-2 py-1' onClick={() => setOpen(!open)}>
@@ -50,21 +47,22 @@ const CertCard = ({
         </div>
 
         {/* This is the part dependent on if you want to see more content or not  */}
-        <motion.div animate={{ height }} className='overflow-hidden'>
-          <div ref={ref} className='px-8 pb-8'>
+        <motion.div
+          animate={{ height }}
+          className='overflow-hidden text-sm sm:text-md'
+        >
+          <div ref={ref} className='px-auto pb-8'>
             {open ? (
-              <div>
-                <Link href={preview}>
-                  <Image
-                    src={src}
-                    width={500}
-                    height={500}
-                    alt={alt}
-                    className='cursor-pointer'
-                  />
-                  <p className='mt-5'>{description}</p>
-                </Link>
-              </div>
+              <Link href={preview}>
+                <Image
+                  src={src}
+                  width={500}
+                  height={500}
+                  alt={alt}
+                  className='cursor-pointer'
+                />
+                <p className='mt-5'>{description}</p>
+              </Link>
             ) : (
               <div className='text-center'>
                 <p className='mb-3 italic '>{company}</p>

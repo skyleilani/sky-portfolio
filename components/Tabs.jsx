@@ -73,15 +73,15 @@ const Tabs = ({
   const moreTabDescriptionList = moreTabDescription.split('.');
 
   return (
-    <div className='py-5 ml-40 '>
+    <div className='py-5 items-center z-10 '>
       <div
-        className='flex border rounded-xl shadow-lg p-5 mx-5 w-9/12 h-3/6 bg-stone-100'
+        className='flex w-full sm:w-3/5 h-3/6 border rounded-xl shadow-lg p-5 mx-auto  h-3/6 bg-stone-100'
         ref={container}
       >
-        <div className='text-left w-11/12 pl-5 '>
+        <div className='text-left w-11/12 pl-5  '>
           <p className='my-5'>{tabDescription}</p>
 
-          <Image src={imgSrc} alt={imgAlt} width={500} height={300} />
+          <Image src={imgSrc} alt={imgAlt} width={500} height={500} />
           <div className='text-center'>
             <h1 className='italic mt-5'> skills strengthened: </h1>
           </div>

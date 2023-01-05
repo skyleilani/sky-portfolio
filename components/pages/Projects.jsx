@@ -8,14 +8,15 @@ import ProjectCard from '../ProjectCard';
 const projects = () => {
   return (
     <div className='w-full min-h-screen h-max' id='projects'>
-      <div className='max-w-[11240px] mx-auto px-2 py-7 min-h-max '>
-        <p className='text-md tracking-widest uppercase text-red-400 mx-7 mb-48'>
+      <div className='h-max max-w-[11240px] mx-auto px-2 py-7 min-h-max '>
+        <p className='text-md h-max tracking-widest uppercase text-red-400 mx-7 mb-48'>
           Projects
         </p>
         {/* Component displays a card for each unique project  */}
         <ProjectCard
           title='Equation Game'
           description='a true or false based equation game built with React'
+          mobileDescription='React, TailwindCSS, Framer Motion'
           sourceCodeLink='https://github.com/skyleilani/true-or-false'
           liveLink='https://true-or-false.vercel.app/'
           imgSrc={tf}
