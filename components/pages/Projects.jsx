@@ -35,6 +35,20 @@ const projects = () => {
           Used the motion library to create animations in React'
         />
         <ProjectCard
+          title='Unity Mandelbrot Explorer'
+          description='a mandelbrot explorer made with shaders in Unity. The Github repo also contains code for connecting to Arduino buttons, but the live link will take you to a WASD controlled web version.'
+          mobileDescription='React, TailwindCSS, Unity, HLSL'
+          sourceCodeLink='https://github.com/skyleilani/unity-game'
+          liveLink='https://web-unity-mandelbrot.vercel.app/'
+          imgSrc={unityMandelbrot}
+          imgAlt='unityMandelbrot'
+          tabDescription='A mandelbrot explorer made with Unity HLSL shaders. '
+          moreTabDescription='Proficiency in using Unitys ShaderLab language and creating custom shaders.
+          Solid understanding of mathematical concepts and ability to implement them in code.
+          Experience in creating user-friendly and customizable graphics by using properties to control the look and feel of the Mandelbrot set.
+          Solid understanding of Unity, computer graphics and mathematical concepts'
+        />
+        <ProjectCard
           title='Portfolio (this site)'
           description='A web portfolio hosted on Vercel using Next JS, Tailwind CSS, with help from the Headless UI and Framer Motion libraries'
           mobileDescription='Next.js, React, Tailwind CSS, Headless UI, Framer Motion'
@@ -51,17 +65,6 @@ const projects = () => {
           Understanding of how to access and manipulate DOM elements using JavaScript.
           Knowledge of how to use the getBoundingClientRect method to get the dimensions and position of an element.
           Familiarity with the pageYOffset and scrollTop properties to get the current scroll position of the page or an element'
-        />
-        <ProjectCard
-          title='Unity Mandelbrot Explorer'
-          description='a mandelbrot explorer made with shaders in Unity'
-          mobileDescription='React, TailwindCSS, Unity, HLSL'
-          sourceCodeLink='https://github.com/skyleilani/unity-game'
-          liveLink='https://web-unity-mandelbrot.vercel.app/'
-          imgSrc={unityMandelbrot}
-          imgAlt='unityMandelbrot'
-          tabDescription='A mandelbrot explorer made with Unity HLSL shaders. '
-          moreTabDescription='The github has code for connecting to arduino buttons, but the live link will take you to a WASD controlled web version'
         />
       </div>
     </div>
