@@ -36,13 +36,13 @@ const projects = () => {
         />
         <ProjectCard
           title='Unity Mandelbrot Explorer'
-          description='a mandelbrot explorer made with shaders in Unity. The Github repo also contains code for connecting to Arduino buttons, but the live link will take you to a WASD controlled web version.'
+          description='a mandelbrot explorer made with shaders in Unity. '
           mobileDescription='React, TailwindCSS, Unity, HLSL'
           sourceCodeLink='https://github.com/skyleilani/unity-game'
           liveLink='https://web-unity-mandelbrot.vercel.app/'
           imgSrc={unityMandelbrot}
           imgAlt='unityMandelbrot'
-          tabDescription='A mandelbrot explorer made with Unity HLSL shaders. '
+          tabDescription='A mandelbrot explorer made with Unity HLSL shaders.The Github repo also contains code for connecting to Arduino buttons, but the live link will take you to a WASD controlled web version. '
           moreTabDescription='Proficiency in using Unitys ShaderLab language and creating custom shaders.
           Solid understanding of mathematical concepts and ability to implement them in code.
           Experience in creating user-friendly and customizable graphics by using properties to control the look and feel of the Mandelbrot set.
