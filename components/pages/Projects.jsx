@@ -1,6 +1,7 @@
 import React from 'react';
 import tf from '../../public/tf.png';
 import this_site from '../../public/this_site.png';
+import unityMandelbrot from '../../public/unityMandelbrot.png';
 import ProjectCard from '../ProjectCard';
 
 // Displays list of projects
@@ -50,6 +51,17 @@ const projects = () => {
           Understanding of how to access and manipulate DOM elements using JavaScript.
           Knowledge of how to use the getBoundingClientRect method to get the dimensions and position of an element.
           Familiarity with the pageYOffset and scrollTop properties to get the current scroll position of the page or an element'
+        />
+        <ProjectCard
+          title='Unity Mandelbrot Explorer'
+          description='a mandelbrot explorer made with shaders in Unity'
+          mobileDescription='React, TailwindCSS, Unity, HLSL'
+          sourceCodeLink='https://github.com/skyleilani/unity-game'
+          liveLink='https://web-unity-mandelbrot.vercel.app/'
+          imgSrc={unityMandelbrot}
+          imgAlt='unityMandelbrot'
+          tabDescription='A mandelbrot explorer made with Unity HLSL shaders. '
+          moreTabDescription='The github has code for connecting to arduino buttons, but the live link will take you to a WASD controlled web version'
         />
       </div>
     </div>
