@@ -37,7 +37,7 @@ const projects = () => {
         <ProjectCard
           title='Unity Mandelbrot Explorer'
           description='a mandelbrot explorer made with shaders in Unity. '
-          mobileDescription='React, TailwindCSS, Unity, HLSL'
+          mobileDescription='React, TailwindCSS, Unity, HLSL, Arduino'
           sourceCodeLink='https://github.com/skyleilani/fractal-shader'
           liveLink='https://web-unity-mandelbrot.vercel.app/'
           imgSrc={unityMandelbrot}
