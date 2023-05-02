@@ -3,6 +3,7 @@ import tf from '../../public/tf.png';
 import this_site from '../../public/this_site.png';
 import unityMandelbrot from '../../public/unityMandelbrot.png';
 import ProjectCard from '../ProjectCard';
+import DaisyBotPic from '../../public/DaisyBotPic.png';
 
 // Displays list of projects
 
@@ -14,6 +15,21 @@ const projects = () => {
           Projects
         </p>
         {/* Component displays a card for each unique project  */}
+
+        <ProjectCard
+          title='DaisyBot Wiring Tutorial Video'
+          description='a tutorial video on my wiring of an Arduino based robot'
+          mobileDescription='Arduino, C++'
+          sourceCodeLink='https://github.com/skyleilani/DaisyBot-Basic-Functions'
+          liveLink='https://www.youtube.com/watch?v=GWxTk5iPvJU'
+          imgSrc={DaisyBotPic}
+          imgAlt='DaisyBotPic'
+          tabDescription='A tutorial video on wiring Dr. Carlotta Berrys DaisyBot. '
+          moreTabDescription='Basic wiring for the Arduino Mega, TB6612 Driver, and DC motors. 
+                             Includes a github repository with basic functions for testing the circuit. 
+                              '
+        />
+
         <ProjectCard
           title='Equation Game'
           description='a true or false based equation game built with React'
