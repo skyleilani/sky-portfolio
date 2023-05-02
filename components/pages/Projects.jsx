@@ -26,7 +26,7 @@ const projects = () => {
           imgAlt='DaisyBotPic'
           tabDescription='A tutorial video on wiring Dr. Carlotta Berrys DaisyBot. '
           moreTabDescription='Basic wiring for the Arduino Mega, TB6612 Driver, and DC motors. 
-                             Includes a github repository with basic functions for testing the circuit. 
+                             Includes a github repository with basic functions for testing the circuit 
                               '
         />
 
