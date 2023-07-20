@@ -24,12 +24,12 @@ const Main = () => {
           </h1>
           <p className='text-gray-600 max-w-[70%] m-auto'>
             <br />
-            dedicated to learning and  creating human-centered designs, and thoughtful
-            solutions.
+            dedicated to learning and creating human-centered designs, and
+            thoughtful solutions.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-5 my-5'>
             <Link
-              href='https://www.linkedin.com/in/sky-leilani-199951203/'
+              href='https://www.linkedin.com/in/sky-l-199951203/'
               className='rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
             >
               <FaLinkedinIn />
